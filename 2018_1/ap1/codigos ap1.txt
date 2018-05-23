@@ -1,0 +1,266 @@
+-Exercício 1:
+
+Algoritmo "Ex1"
+
+Var
+
+cod: Inteiro
+horas, valorHora, salario: Real
+
+Inicio
+
+ Escreva ("Informe o código do funcionário: ")
+   Leia (cod)
+ Escreva ("Informe quantas horas o funcionário trabalhou no mês: ")
+   Leia (horas)
+ Escreva ("Informe quanto o funcionário recebe por hora: ")
+   Leia (valorHora)
+      salario <- horas * valorHora
+ Escreva ("O funcionário irá receber : R$ ",salario)
+
+Fimalgoritmo
+
+-------------
+
+
+
+-Exercício 2:
+
+Algoritmo "semnome"
+
+Var
+
+peca1, qntdPeca1,VUpeca1, peca2, qntdPeca2,VUpeca2, TotalPeça1, TotalPeça2, total: real
+
+Inicio
+
+ Escreva ("Digite o código da peça 1: ")
+   leia(peça1)
+ Escreva ("Digite quantas peças você comprou: ")
+   leia(qntdPeça1)
+ Escreva ("Digite o valor Unitario de cada peça: ")
+   leia(VUpeça1)
+     TotalPeça1 <- qntdPeça1 * VUpeça1
+ Escreval("O valor da total da peça 1 é de: ",TotalPeça1)
+ Escreval("")
+ Escreva ("Digite o código da peça 2: ")
+   leia(peça2)
+ Escreva ("Digite quantas peças você comprou: ")
+   leia(qntdPeça2)
+ Escreva ("Digite o Valor Unitário de cada peça: ")
+   leia(VUpeça2)
+     TotalPeça2 <- qntdPeça2 * VUpeça2
+ Escreval ("O valor total da peça 2 é de: ",TotalPeça2)
+     total <- TotalPeça1 + TotalPeça2
+ Escreval("")
+ Escreva ("O valor total das duas peças é de: ",total)
+
+Fimalgoritmo
+
+----------
+-Exercício 3: 
+
+
+Algoritmo "Ex3"
+
+Var
+
+n1,n2,x:real
+
+Inicio
+
+ Escreval("Digite o valor do número 1: ")
+   leia(n1)
+ Escreval("Digite o valor do número 2: ")
+   leia(n2)
+     x <- n1+n2
+ Escreval ("O valor de X é: ", x)
+ 
+Fimalgoritmo
+
+---------
+
+-Exercício 4:
+
+Algoritmo "Ex4"
+
+Var
+
+ letA, letB, S,A,M: Inteiro
+ D:real
+
+Inicio
+
+ Escreval("Digite o valor da Letra A, OBS: Número Inteiro ")
+   leia(letA)
+ Escreval("Digite o valor da Letra B, OBS: Número Inteiro ")
+   leia(letB)
+     a <- letA + letB
+     s <- letA - letB
+     m <- letA * letB
+     d <- letA / letB
+ Escreval (" A soma da letra (A) mais a letra (B) é de: ", A)
+ Escreval (" A subtração da letra (A) mais a letra (B) é de: ", S)
+ Escreval (" A multiplicação da letra (A) mais a letra (B) é de: ", M)
+ Escreval (" A divisão da letra (A) mais a letra (B) é de: ", D)
+ 
+Fimalgoritmo
+
+--------------
+
+-Exercício 5:
+
+Algoritmo "Ex5"
+
+Var
+
+n1,n2,n3, media:real
+
+Inicio
+
+ escreval("Digite o primeiro número: ")
+   leia(n1)
+ escreval("Digite o segundo número: ")
+   leia(n2)
+ escreval("Digite o terceiro número: ")
+   leia(n3)
+     media <- (n1+n2+n3) / 3
+ Escreval("A média desses 3 valores é de: ",media)
+ 
+Fimalgoritmo
+
+------------
+
+
+
+
+-Exercício 6:
+
+Algoritmo "Ex6"
+
+Var
+
+base, altura, total:real
+
+Inicio
+
+ Escreval ("Digite a Base do seu triângulo: ")
+   leia(base)
+ Escreval ("Digite a altura do seu triângulo: ")
+   leia(altura)
+     total <- base * altura
+ Escreval("A área do seu triângulo é de: ",total)
+ 
+Fimalgoritmo
+
+------
+
+-Exercício 7:
+
+Algoritmo "Ex 7"
+
+numero :real
+
+Inicio
+
+ escreva("Digite o número ")
+   leia(numero)
+     numero <- numero ^ 2
+ escreva("O seu numero em forma de quadrado será: ", numero)
+
+Fimalgoritmo
+-Exercício 8:
+
+Algoritmo "Ex 8"
+
+var
+
+numero_coelhos, valor: real
+
+Inicio
+
+ Escreva("Informe o numero de coelhos que você deseja comprar: ")
+   leia(numero_coelhos)
+     valor <- (numero_coelhos * 0.70) / 18+10
+ Escreva("O valor da compra dos coelhos é: ", valor)
+
+Fimalgoritmo
+
+-Exercício 9:
+
+Algoritmo "Ex 9”
+
+var
+
+precoCusto, precoVenda, lucro :real
+
+Inicio
+
+ Escreva("Por favor, informe o Preço de Custo: ")
+   leia(precoCusto)
+ Escreva("Por favor, informe o Preço de Venda: ")
+   leia(precoVenda)
+     lucro <- PrecoVenda - PrecoCusto
+ Escreva(" O lucro do vendedor será de: ",lucro)
+
+Fimalgoritmo
+-Exercício 10:
+
+Algoritmo "Ex 10"
+
+var
+
+quantidade, valor, total :real
+
+Inicio
+
+ Escreva("Informe o valor do produto: ")
+   leia(valor)
+ Escreva("Informe a quantidade do produto: ")
+   leia(quantidade)
+     total <- valor * quantidade
+ Escreva("O total do pagamento será de: ",total)
+
+
+Fimalgoritmo
+
+---------
+
+-Exercício 11:
+
+Algoritmo "Ex 11"
+
+var
+
+n1, n2, total :inteiro
+
+Inicio
+
+ Escreva("Digite o primeiro número: ")
+   leia(n1)
+ Escreva("Digite o segundo número: ")
+   leia(n2)
+     total <- n2 DIV n1
+ Escreva("O resto da divisão será de: ", total)
+
+Fimalgoritmo
+
+---------
+
+-Exercício 12:
+
+Algoritmo "Ex 12"
+
+var
+
+n1, n2, total :inteiro
+
+Inicio
+
+ Escreva("Digite o primeiro número ")
+   leia(n1)
+ Escreva("Digite o segundo número ")
+   leia(n2)
+     total <- n2 DIV n1
+ Escreva("O valor inteiro da divisão é: ",total)
+Fimalgoritmo
