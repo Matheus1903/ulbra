@@ -1,1 +1,11 @@
 estamos na aula de iac aprendendo github e git
+
+comandos de prompt
+
+*ls - lista
+*cd - vai um nivel acima do diretorio
+*cd "nome" - vai um nivel abaixo do diretorio
+*mkdir "nome" - cria uma pasta no diretorio
+* rmdir "nome" apagar pasta - apagar a pasta
+*clear - limpa a tela
+*dir > "nome" - cria um novo arquivo/atalho
